@@ -7,10 +7,10 @@ Rails.application.routes.draw do
   root to: 'pages#index'
   get "up" => "rails/health#show", as: :rails_health_check
 
+  devise_scope :user do
+    get 'login', to: 'devise/sessions#new'
+  end
+
   # Defines the root path route ("/")
   # root "posts#index"
-end
-
-devise_scope :user do
-  get 'login', to: 'devise/sessions#new'
 end
