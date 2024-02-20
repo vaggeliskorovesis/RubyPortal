@@ -31,6 +31,8 @@ gem 'sass-rails', '>= 3.2'
 
 gem 'jquery-rails'
 
+gem 'devise'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
