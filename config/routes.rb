@@ -15,6 +15,14 @@ Rails.application.routes.draw do
     get 'signup', to: 'devise/registrations#new'
   end
 
+  resources :posts do
+    collection do
+      get 'hobby'
+      get 'study'
+      get 'team'
+    end
+  end
+
   # Defines the root path route ("/")
   # root "posts#index"
 end
