@@ -1,29 +1,11 @@
-.single-post-card {
-    min-height: 135px;
-    max-height: 135px;
-    box-shadow: 1px 1px 4px rgba(0,0,0, 0.3);
-    color: black;
-    padding: 10px;
-    text-align: left;
-    transition: border 0.1s, background 0.5s;
-    .post-text {
-      overflow: hidden;
-    }
-    a, a:active, a:hover {
-      color: black;
-    }
-    &:hover {
-      cursor: pointer;
-      background: white;
-      box-shadow: none;
-      border-radius: 1%;
-    }
-  }
-  
-  .post-content {
-    display: none;
-  }
 
+
+//   .post-content {
+//     display: none;
+//   }
+.single-post-set {
+    margin-bottom: 80px; /* Adjust the value as needed to increase or decrease the space */
+  }
   .solid-color-mode, .border-color-mode {
     .post-text {
       text-align: center;
@@ -33,11 +15,33 @@
   .solid-color-mode {
     .post-text {
       padding: 10px;
-      background-color: white;
-      border-radius: 25px;
+      background-color: rgb(189, 24, 24);
+      border-radius: 100px;
     }
   }
   
   .border-color-mode {
-    background-color: white;
+    background-color: rgb(89, 206, 219);
+  }
+
+  .single-post-card {
+    min-height: 150px;
+    max-height: 185px;
+    box-shadow: 1px 1px 4px rgba(0,0,0, 0.3);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    transition: border 0.1s, background 0.5s;
+    .post-text {
+      overflow: hidden;
+    }
+    a, a:active, a:hover {
+      color: rgb(71, 176, 63);
+    }
+    &:hover {
+      cursor: pointer;
+      background: rgb(167, 106, 106);
+      box-shadow: none;
+      border-radius: 1%;
+    }
   }

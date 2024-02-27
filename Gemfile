@@ -35,6 +35,8 @@ gem 'devise'
 
 gem 'bootstrap_form'
 
+gem 'turbolinks', '~> 5'
+
 gem 'faker'
 
 # Use Redis adapter to run Action Cable in production
