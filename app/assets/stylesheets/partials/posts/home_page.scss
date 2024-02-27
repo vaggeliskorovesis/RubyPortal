@@ -1,10 +1,8 @@
-
-
-//   .post-content {
-//     display: none;
-//   }
+  .post-content {
+    display: none;
+  }
 .single-post-set {
-    margin-bottom: 80px; /* Adjust the value as needed to increase or decrease the space */
+    margin-bottom: 80px; 
   }
   .solid-color-mode, .border-color-mode {
     .post-text {
@@ -26,7 +24,7 @@
 
   .single-post-card {
     min-height: 150px;
-    max-height: 185px;
+    max-height: 180px;
     box-shadow: 1px 1px 4px rgba(0,0,0, 0.3);
     color: black;
     padding: 10px;
